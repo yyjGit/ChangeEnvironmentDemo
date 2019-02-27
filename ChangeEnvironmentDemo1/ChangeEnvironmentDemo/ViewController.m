@@ -22,6 +22,7 @@
 {
     [super viewDidLoad];
     
+    // 添加tableView到self.view
     [self.view addSubview:self.tableView];
     
 #if DEBUG
